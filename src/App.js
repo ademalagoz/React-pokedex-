@@ -3,6 +3,8 @@ import "./App.css";
 import Logo from "./logo";
 import CaughtPokemon from "./CaughtPokemon";
 import BestPokemon from "./BestPokemon";
+import PokemonMovesSelector from "./PokemonMovesSelector";
+import PokemonCity from "./PokemonCity";
 // const Logo = ()=> {
 // const appName = "ADEM_ALAGOZ's Pokedex"
 
@@ -52,6 +54,8 @@ function App() {
         onClick={CaughtPokemon}
         date={new Date().toLocaleDateString()}
       />
+      <PokemonMovesSelector />
+      <PokemonCity />
     </div>
   );
 }
